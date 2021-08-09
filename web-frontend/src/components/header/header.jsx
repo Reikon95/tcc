@@ -1,7 +1,7 @@
 import {React} from 'react'
-
+import {StyledHeader} from './header.styled'
 export default function Header({text}) {
     return (
-        <h2>{text}</h2>
+        <StyledHeader>{text}</StyledHeader>
     )
 }

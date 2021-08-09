@@ -1,9 +1,12 @@
 import {React} from 'react'
+import Header from '../../components/header/header'
 
-export default function Jobs() {
+export default function Jobs({jobs}) {
     return (
         <>
-        <h2>Jobs</h2>
+        <Header text='Jobs'/>
+
+        
         </>
     )
 }

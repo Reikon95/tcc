@@ -9,24 +9,15 @@ import {
 import About from './pages//about/about.jsx'
 import Jobs from './pages//jobs/jobs.jsx'
 import Landing from './pages/landing/landing.jsx'
+import NavBar from './components/navbar/navbar';
 
 export default function App() {
+
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/jobs">Jobs</Link>
-            </li>
-          </ul>
-        </nav>
+        <NavBar/>
+
         <Switch>
           <Route path="/about">
             <About />
