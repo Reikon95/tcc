@@ -6,7 +6,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import About from './pages//about/about.jsx'
+import Jobs from './pages//jobs/jobs.jsx'
+import Landing from './pages/landing/landing.jsx'
 
 export default function App() {
   return (
@@ -21,7 +23,7 @@ export default function App() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/jobs">Jobs</Link>
             </li>
           </ul>
         </nav>
@@ -29,11 +31,11 @@ export default function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/jobs">
+            <Jobs />
           </Route>
           <Route path="/">
-            <Home />
+            <Landing />
           </Route>
         </Switch>
       </div>
@@ -41,14 +43,3 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
