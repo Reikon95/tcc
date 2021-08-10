@@ -31,11 +31,6 @@ html, body, div, p, ul, li {
     transition: background .3s;
   }
   
-  /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
-  .nav-link {
-    color: #fff;
-    text-decoration: none;
-  }
 
   .navLink {
     display: inline-block;
