@@ -1,7 +1,10 @@
 import {React} from 'react';
 
 export default function Contact() {
-    <>
-    <h2>Get in touch</h2>
-    </>
+    return (
+        <>
+        <h2>Get in touch</h2>
+        </>
+    )
+
 }
