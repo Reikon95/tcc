@@ -1,6 +1,12 @@
 import { React } from "react";
 import Header from "../../components/header/header";
 import "./landing.css";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 export default function Landing() {
   return (
     <>
@@ -36,7 +42,9 @@ export default function Landing() {
               <div class="flip-box-front">
                 <div className="inner-text">Jobs</div>
               </div>
-              <div class="flip-box-back">Coming soon!</div>
+              <div class="flip-box-back">    <Link to="/jobs" className="navLink">
+            Latest Vacancies
+          </Link></div>
             </div>
           </div>
         </div>        <div class="box">
