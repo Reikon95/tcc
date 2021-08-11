@@ -17,7 +17,7 @@ export default function App() {
             <About />
           </Route>
           <Route path="/jobs">
-            <Jobs />
+            <Jobs jobs={[{ company: "Amazon" }, { company: "Netflix" }]} />
           </Route>
           <Route path="/">
             <Landing />

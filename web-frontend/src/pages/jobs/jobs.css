@@ -1,4 +1,7 @@
 .page-content {
   margin: 2vh 5vw;
-  box-shadow: 5px 10px #888888;
+}
+
+.job-panel {
+  display: flex;
 }
