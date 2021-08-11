@@ -12,8 +12,8 @@ export default function About() {
       <Container>
         <div>
           The Coder Career is a hub for for software professionals to break into
-          and level udiv in the industry. We feature job advertisments and
-          useful content.
+          and level up in the industry. We feature job advertisments and useful
+          content.
         </div>
       </Container>
     </>

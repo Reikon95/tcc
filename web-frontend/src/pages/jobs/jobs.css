@@ -4,4 +4,25 @@
 
 .job-panel {
   display: flex;
+  justify-content: space-evenly;
+  border: solid black 1px;
+  margin: 1vh;
+  padding: 1vh;
+  width: 100%;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.job-company {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.desc-and-apply {
+  flex-grow: 2;
+  padding: 1vh;
+  text-align: center;
 }

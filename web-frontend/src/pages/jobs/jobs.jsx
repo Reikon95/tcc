@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import Header from "../../components/header/header";
 import "./jobs.css";
 import Button from "@material-ui/core/Button";
-
+import MockJobs from "../../assets/mockjobs";
 export default function Jobs({ jobs }) {
   const [filteredJobs, setFilteredJobs] = useState(jobs);
 
@@ -20,18 +20,21 @@ export default function Jobs({ jobs }) {
         {filteredJobs &&
           filteredJobs.length > 0 &&
           filteredJobs.map((job) => {
-            console.log(job);
             return (
               <div className="job-panel">
-                <div>Job Title</div>
-                <div>{job.company}</div>
-                <div>Job Logo</div>
-                <div>Job Salary</div>
-                <div>Job Description</div>
+                <div>
+                  <div className="job-title">{job.title}</div>
+                  <div className="job-company">{job.company}</div>
+                  <div>{job.salary}</div>
+                </div>
+                <div className="desc-and-apply">
+                  <div>{job.description}</div>
 
-                <Button variant="contained" color="secondary">
-                  Apply to this job
-                </Button>
+                  <Button variant="contained" color="secondary">
+                    Apply
+                  </Button>
+                </div>
+                <div>Job Logo</div>
               </div>
             );
           })}
