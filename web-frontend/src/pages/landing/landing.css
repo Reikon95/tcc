@@ -8,8 +8,8 @@
   }
   .container {
     margin: 20px auto;
-    width:50vw;
-    height:50vh;
+    width:75vw;
+    height:75vh;
     background-color:#fff;
     display:grid;
     grid-template-columns: 50% 50%;
