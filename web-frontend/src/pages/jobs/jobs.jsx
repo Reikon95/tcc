@@ -1,5 +1,6 @@
 import { React } from "react";
 import Header from "../../components/header/header";
+import "./jobs.css";
 
 export default function Jobs({ jobs }) {
   return (

@@ -66,7 +66,7 @@ export default function Landing() {
           <div class="flip-box">
             <div class="flip-box-inner">
               <div class="flip-box-front">
-                <div className="inner-text">Blog</div>
+                <div className="inner-text">Newsletter</div>
               </div>
               <div class="flip-box-back">Coming soon!</div>
             </div>
