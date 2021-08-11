@@ -23,6 +23,6 @@
 
 .desc-and-apply {
   flex-grow: 2;
-  padding: 1vh;
   text-align: center;
+  display: flex;
 }
