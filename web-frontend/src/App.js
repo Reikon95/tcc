@@ -10,7 +10,7 @@ import MockJobs from "./assets/mockjobs";
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="app">
         <NavBar />
 
         <Switch>

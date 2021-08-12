@@ -9,7 +9,7 @@ export default function About() {
     <>
       <Header text="About The Coder Career" />
 
-      <Container>
+      <Container className="about-us-content">
         <div>
           The Coder Career is a hub for for software professionals to break into
           and level up in the industry. We feature job advertisments,

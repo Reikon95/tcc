@@ -17,7 +17,7 @@ li {
 
 /* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
 .nav {
-  background: #000;
+  background: #4A7B9D;
   height: 60px; /* set same as height & line-height below */
 }
 
