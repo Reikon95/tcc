@@ -3,5 +3,12 @@
 }
 
 .about-us-content {
-    display: none;
+    font-family: 'Epilogue', sans-serif;
+    -webkit-box-shadow: -4px 7px 8px 11px #E9E9E9; 
+    box-shadow: -4px 7px 8px 11px #E9E9E9;
+    font-size: 1.5em;
+}
+
+.intro-text {
+    margin: 12px 0;
 }

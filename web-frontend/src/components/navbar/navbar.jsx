@@ -20,6 +20,11 @@ export default function NavBar() {
             Jobs
           </Link>
         </li>
+        <li>
+          <Link to="/newsletter" className="navLink">
+            Newsletter
+          </Link>
+        </li>
       </ul>
     </div>
   );
