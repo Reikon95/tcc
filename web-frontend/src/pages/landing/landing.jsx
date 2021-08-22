@@ -58,7 +58,10 @@ export default function Landing() {
               <div class="flip-box-front">
                 <div className="inner-text">Podcast</div>
               </div>
-              <div class="flip-box-back">Coming soon!</div>
+                              <Link to="/podcast" className="navLink">
+
+              <div class="flip-box-back">TCC Podcast</div>
+              </Link>
             </div>
           </div>
         </div>

@@ -25,6 +25,11 @@ export default function NavBar() {
             Newsletter
           </Link>
         </li>
+                <li>
+          <Link to="/podcast" className="navLink">
+            Podcast
+          </Link>
+        </li>
       </ul>
     </div>
   );

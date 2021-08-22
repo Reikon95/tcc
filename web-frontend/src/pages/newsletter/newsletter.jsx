@@ -3,6 +3,10 @@ import React from 'react'
 import Header from "../../components/header/header";
 
 export default function NewsLetter() {
+    const signupIframeStyle = {
+        border: '1px solid #EEE',
+        background: 'white'
+    }
     return (
         <>
             <Header text="Newsletter"/>
@@ -11,11 +15,12 @@ export default function NewsLetter() {
                 If you want to get the latest tips, tricks and vacancies straight into your inbox, subscribe to our newsletter: 
             </div>
             <div>
-                Newsletter signup
+<iframe src="https://thecodercareer.substack.com/embed" width="480" height="320" style={signupIframeStyle} frameborder="0" scrolling="no"></iframe>
             </div>
             <div>
                 Interested in sponsoring our newsletter or featuring your job vacancy? Contact us.
             </div>
+        
             </Container>
         </>
     )
