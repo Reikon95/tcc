@@ -1,13 +1,17 @@
 * {
-    font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 
 .about-us-content {
-    font-family: 'Epilogue', sans-serif;
-    -webkit-box-shadow: -4px 7px 8px 11px #E9E9E9; 
-    box-shadow: -4px 7px 8px 11px #E9E9E9;
+  font-family: "Epilogue", sans-serif;
+  -webkit-box-shadow: -4px 7px 8px 11px #e9e9e9;
+  box-shadow: -4px 7px 8px 11px #e9e9e9;
 }
 
 .intro-text {
-    margin: 12px 0;
+  margin: 12px 0;
+}
+
+.contact-panel {
+  border: solid black 1px;
 }
