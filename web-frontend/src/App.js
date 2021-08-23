@@ -5,6 +5,7 @@ import About from "./pages//about/about.jsx";
 import Jobs from "./pages//jobs/jobs.jsx";
 import Landing from "./pages/landing/landing.jsx";
 import NavBar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 import MockJobs from "./assets/mockjobs";
 import NewsLetter from "./pages/newsletter/newsletter";
 import SubmitJob from "./pages/jobs/submit-job/SubmitJob";
@@ -21,7 +22,7 @@ export default function App() {
             <About />
           </Route>
           <Route path="/jobs">
-            <Jobs jobs={MockJobs()} />
+            <Jobs jobs={[]} />
           </Route>
           <Route path="/newsletter">
             <NewsLetter />
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/">
             <Landing />
           </Route>
+          <Footer />
         </Switch>
       </div>
     </Router>

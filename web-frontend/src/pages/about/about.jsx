@@ -11,8 +11,8 @@ export default function About() {
 
       <Container className="about-us-content">
         <div className="intro-text">
-          The Coder Career is a hub for for software professionals to break into
-          and level up in the industry. We feature job advertisments,
+          The Coder Career is a hub for for software professionals to break into, level up and innovate in the technology
+          industry. We feature job advertisments,
           interesting tech stories and useful content for careers in tech.
         </div>
         <div>
@@ -27,7 +27,14 @@ export default function About() {
           into the wonderful world of technology, and we want to give them all
           the help we can!
         </div>
+        <div>
+          Contact Cam
+          <img src='https://avatars.githubusercontent.com/u/38852603?v=4' width='200' height='200' alt='picture of cam' className='cam-picture'/>
+          cameronblackwood.developer@gmail.com
+          cameronblackwood.com
+        </div>
       </Container>
     </>
   );
 }
+

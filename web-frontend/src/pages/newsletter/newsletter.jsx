@@ -12,7 +12,7 @@ export default function NewsLetter() {
             <Header text="Newsletter"/>
             <Container>
             <div>
-                If you want to get the latest tips, tricks and vacancies straight into your inbox, subscribe to our newsletter, coming soon!
+                If you want to get the latest tips, tricks and vacancies straight into your inbox, subscribe to our newsletter!
             </div>
             <div className='subscribe-wrapper'>
 <iframe src="https://thecodercareer.substack.com/embed" width="480" height="320" style={signupIframeStyle} frameborder="0" scrolling="no"></iframe>

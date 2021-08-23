@@ -4,7 +4,6 @@ import "./jobs.css";
 import Button from "@material-ui/core/Button";
 export default function Jobs({ jobs }) {
   const [filteredJobs, setFilteredJobs] = useState(jobs);
-  console.log(jobs)
   return (
     <>
       <Header text="Jobs" />
@@ -13,7 +12,8 @@ export default function Jobs({ jobs }) {
         <div>
           We are currently in the process of setting up a job board, focused on
           companies keen to give people a start in tech. For a limited time, you
-          can advertise on our board for free! Please get in touch for details.
+          can advertise on our board for free (and if you are among our first
+          advertisers, we will never charge!) Please get in touch for details.
         </div>
 
         {filteredJobs &&
@@ -32,7 +32,13 @@ export default function Jobs({ jobs }) {
                   <div className="job-description">{job.description}</div>
                 </div>
                 <div>
-                  <div>Job Logo</div>
+                  <img
+                    src="https://avatars.githubusercontent.com/u/38852603?v=4"
+                    width="100"
+                    height="100"
+                    alt="picture of cam"
+                    className="cam-picture"
+                  />
                   <Button variant="contained" color="secondary">
                     Apply
                   </Button>
@@ -41,7 +47,9 @@ export default function Jobs({ jobs }) {
             );
           })}
         {filteredJobs?.length === 0 ||
-          (!filteredJobs && <div>We currently don't have any jobs available, sorry!</div>)}
+          (!filteredJobs && (
+            <div>We currently don't have any jobs available, sorry!</div>
+          ))}
       </div>
     </>
   );
