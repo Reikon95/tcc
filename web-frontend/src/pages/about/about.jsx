@@ -37,12 +37,17 @@ export default function About() {
             alt="picture of cam"
             className="cam-picture"
           />
-          <div>
-            I'm currently looking for partnerships for The Coder Career to help
-            establish it as a careers hub for technology professionals
-            worldwide. If you think you can help, please get in touch!
+          <div className="contact-panel-details">
+            <div className="updates-info">
+              I'm currently looking for partnerships for The Coder Career to
+              help establish it as a careers hub for technology professionals
+              worldwide. If you think you can help, please get in touch via the
+              links below!
+            </div>
+            <div className="socials-icon">
+              emailicon github  websiteicon linkedinicon
+            </div>
           </div>
-          <div>emailicon githubicon websiteicon linkedinicon</div>
         </div>
       </Container>
     </>
