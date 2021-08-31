@@ -1,9 +1,12 @@
 import { React } from "react";
 import Header from "../../components/header/header";
-import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import "./about.css";
+import Linkedin from "./linkedin.svg";
+import Github from "./github.svg";
+import Globe from "./globe.svg";
+import Gmail from "./gmail.svg";
+
 export default function About() {
   return (
     <>
@@ -45,7 +48,10 @@ export default function About() {
               links below!
             </div>
             <div className="socials-icon">
-              emailicon github  websiteicon linkedinicon
+              <img src={Gmail} height="32px" />
+              <img src={Github} height="32px" />
+              <img src={Globe} height="32px" />
+              <img src={Linkedin} height="32px" />
             </div>
           </div>
         </div>
