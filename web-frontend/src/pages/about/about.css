@@ -29,5 +29,13 @@
 }
 
 .socials-icon {
+  display: flex;
   padding: 1.2rem;
+  justify-content: space-between;
+  min-width: 100%;
+}
+
+.contact-header {
+  text-align: center;
+  margin: 1.2rem;
 }

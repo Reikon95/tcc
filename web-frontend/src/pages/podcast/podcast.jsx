@@ -1,10 +1,8 @@
 import React from "react";
 import Header from "../../components/header/header";
 import { Container } from "@material-ui/core";
-
+import "./podcast.css";
 export default function Podcast() {
-  // https://feeds.captivate.fm/thecodercareer/
-
   // https://open.spotify.com/show/7BkIsKOw8vhFOmD4ZKXwES?si=MlMD_uUkQzKvT8bHXVN2VA&dl_branch=1
   return (
     <>
@@ -15,7 +13,8 @@ export default function Podcast() {
           Check out The Coder Career podcast on the streaming platform of your
           choice!
         </div>
-        <h3>Spotify</h3>
+        <h3 className="platform-name">Spotify</h3>
+
         <iframe
           src="https://open.spotify.com/embed/show/7BkIsKOw8vhFOmD4ZKXwES"
           width="100%"

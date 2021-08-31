@@ -31,7 +31,7 @@ export default function About() {
           into the wonderful world of technology, and we want to give them all
           the help we can!
         </div>
-        Contact Cam
+        <h3 className="contact-header">Contact Cam</h3>
         <div className="contact-panel">
           <img
             src="https://avatars.githubusercontent.com/u/38852603?v=4"
@@ -48,10 +48,21 @@ export default function About() {
               links below!
             </div>
             <div className="socials-icon">
-              <img src={Gmail} height="32px" />
-              <img src={Github} height="32px" />
-              <img src={Globe} height="32px" />
-              <img src={Linkedin} height="32px" />
+              <a href="mailto:thecodercareer@gmail.com" target="_blank">
+                <img src={Gmail} height="32px" />
+              </a>
+              <a href="https://www.github.com/reikon95" target="_blank">
+                <img src={Github} height="32px" />
+              </a>
+              <a href="" target="_blank">
+                <img src={Globe} height="32px" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/cameron-blackwood-2b758883/"
+                target="_blank"
+              >
+                <img src={Linkedin} height="32px" />
+              </a>
             </div>
           </div>
         </div>
