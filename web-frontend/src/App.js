@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 import MockJobs from "./assets/mockjobs";
 import NewsLetter from "./pages/newsletter/newsletter";
 import SubmitJob from "./pages/jobs/submit-job/SubmitJob";
-import Podcast from "./pages/podcast/podcast";
+import Podcast from "./pages/podcast/podcast.jsx";
 
 export default function App() {
   return (

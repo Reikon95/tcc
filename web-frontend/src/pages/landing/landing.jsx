@@ -8,9 +8,7 @@ export default function Landing() {
       <Header text="Welcome to The Coder Career." />
 
       <div className="landing-subheader">
-        <h3>
-          Resouces to break into level up and innovate in the tech industry.
-        </h3>
+        <h3>Get a job in tech. Level up. Innovate.</h3>
         <div>
           There's plenty of information on solving technical issues online, but
           why not career issues?
