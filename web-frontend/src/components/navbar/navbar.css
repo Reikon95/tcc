@@ -11,13 +11,13 @@ li {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: 100;
 }
 
 /* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
 .nav {
-  background: #4A7B9D;
+  background: #4a7b9d;
   height: 60px; /* set same as height & line-height below */
 }
 
@@ -41,4 +41,14 @@ li {
   list-style: none;
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .nav li {
+    display: inline-block;
+    list-style: none;
+    height: 60px; /* should be the same as line-height */
+    line-height: 60px; /* should be the same as height */
+    padding: 0 20px; /* "0" sets top and bottom padding to none */
+  }
 }
