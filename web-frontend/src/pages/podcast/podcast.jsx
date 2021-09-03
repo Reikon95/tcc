@@ -8,7 +8,6 @@ import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Header from "../../components/header/header";
-import { Container } from "@material-ui/core";
 import "./podcast.css";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -47,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: theme.palette.background.paper,
     width: "100vw",
+    marginTop: "2vh",
   },
 }));
 
@@ -64,7 +64,7 @@ export default function Podcast() {
   };
 
   return (
-    <>
+    <div className="podcast-wrapper">
       <Header text="TCC Podcast" />
 
       <div>
@@ -117,6 +117,6 @@ export default function Podcast() {
           </TabPanel>
         </SwipeableViews>
       </div>
-    </>
+    </div>
   );
 }
